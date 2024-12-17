@@ -1,0 +1,14 @@
+.header{
+    text-align: center;
+}
+.main-student-detail{
+    border: 1px double black;
+    display: block;
+    margin: 6px auto;
+    padding: 5px 5px;
+    border-radius: 15px;
+
+}
+h4{
+    margin: 0px 0px;
+}

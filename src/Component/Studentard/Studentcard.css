@@ -1,0 +1,54 @@
+.main-studentcard{
+    border: 1px solid black;
+    margin: 6px 15px;
+    padding: 20px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+}
+.inner-div{
+    margin-top: 0px;
+    display: flex;
+}
+.student-name{
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+.student-rollNo{
+    text-decoration: none;
+}
+.student-city{
+    margin-left: 6px;
+    text-decoration: none;
+}
+.delete-btn{
+ position: absolute;
+ right: 20px;
+ top: 40%;
+ border-radius: 25px;
+ background:tomato;
+ color: white;
+ border: none;
+ padding: 5px 15px;
+ cursor: pointer;
+ &:hover{
+    color: black;
+    transition: 0.7ms;
+ }
+}
+
+.edit-btn{
+    position: absolute;
+    right: 100px;
+    top: 40%;
+    border-radius: 25px;
+    background:black;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    &:hover{
+       color: gray;
+       transition: 0.7ms;
+    }
+   }
