@@ -34,8 +34,9 @@ useEffect(()=>{
                 name:student.name,
                 city:student.city,
               });
-            //  console.log(Response?.data?.message);
+             console.log(Response?.data?.message);
              toast.success(Response?.data?.message)
+             
             }
             catch(error){
               // console.log(error?.data?.message);

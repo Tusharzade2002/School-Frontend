@@ -37,7 +37,8 @@ function Addstudent() {
                 toast.error(Response?.data?.message)
              }
             }catch(error){
-               // toast.error(Response?.data?.message)
+              
+               toast.error(Response?.data?.message)
                 //alert(error.message);
                 
             }
