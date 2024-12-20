@@ -19,7 +19,7 @@ function Addstudent() {
     const {rollNo}=useParams();
 
     const UpdatestudentDetails=async()=>{
-      const Response = await axios.get(`http://localhost:5005/students/${rollNo}`)
+      const Response = await axios.get(`https://schoolbackend-qr3h.onrender.com/${rollNo}`)
       Setstudent(Response.data.data);
       
 }
@@ -29,7 +29,7 @@ useEffect(()=>{
 },[rollNo])
 
     const UpdateStudent=async()=>{
-           try{   const Response = await axios.put(`http://localhost:5005/students/${rollNo}`,{
+           try{   const Response = await axios.put(`https://schoolbackend-qr3h.onrender.com/${rollNo}`,{
                 // rollNo:student.rollNo,
                 name:student.name,
                 city:student.city,

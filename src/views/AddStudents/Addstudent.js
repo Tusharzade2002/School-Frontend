@@ -18,7 +18,7 @@ function Addstudent() {
     })
 
     const addStudent=async()=>{
-           try{   const Response = await axios.post("http://localhost:5005/students",{
+           try{   const Response = await axios.post("https://schoolbackend-qr3h.onrender.com",{
                 rollNo:student.rollNo,
                 name:student.name,
                 city:student.city,

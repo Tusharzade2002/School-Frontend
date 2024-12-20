@@ -9,7 +9,7 @@ function Detail() {
   const [student ,Setstudent]=useState();
 
   const loadstudentDetails=async()=>{
-             const Response = await axios.get(`http://localhost:5005/students/${rollNo}`)
+             const Response = await axios.get(`https://schoolbackend-qr3h.onrender.com/${rollNo}`)
              Setstudent(Response.data.data);
              
   }
