@@ -7,7 +7,7 @@ function Studentcard({rollNo,name,city}) {
   const navigate = useNavigate();
 
   const studentdelete= async()=>{
-        const Response=await axios.delete(`https://schoolbackend-qr3h.onrender.com/students${rollNo}`);
+        const Response=await axios.delete(`https://schoolbackend-qr3h.onrender.com/students/${rollNo}`);
         window.location.reload();
   }
 
