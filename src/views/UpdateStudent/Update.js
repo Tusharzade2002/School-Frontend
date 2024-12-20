@@ -29,7 +29,7 @@ useEffect(()=>{
 },[rollNo])
 
     const UpdateStudent=async()=>{
-           try{   const Response = await axios.put(`https://schoolbackend-qr3h.onrender.com/${rollNo}`,{
+           try{   const Response = await axios.put(`https://school-frontend-0vig.onrender.com/students/${rollNo}`,{
                 // rollNo:student.rollNo,
                 name:student.name,
                 city:student.city,
