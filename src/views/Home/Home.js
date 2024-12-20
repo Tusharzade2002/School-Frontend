@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function App() {
    const [Students , Setstudent]=useState([]);
   const loadstudent = async()=>{
-     const Response = await axios.get("https://schoolbackend-qr3h.onrender.com/students");
+     const Response = await axios.get(`${process.env.REACT_APP_API_URL}/students`);
      Setstudent(Response.data.data)
   }
 
